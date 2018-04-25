@@ -1,0 +1,39 @@
+.sideBar {
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    box-shadow: #27272788 0px 5px 10px;
+  }
+  
+  .inlet {
+    height: 100%;
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .leftSide, .rightSide {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .Social {
+    display: flex;
+    flex-direction: column;
+    height: 2em;
+    justify-content: space-around;
+  }
+  
+  .Social svg {
+    fill: #22222256;
+    height: 1.5em;
+    transition: 0.5s;
+  }
+  
+  .Social svg:hover {
+    fill: #49494956;
+  }
