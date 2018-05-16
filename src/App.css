@@ -46,6 +46,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 25;
 }
 
 .Context h2 {

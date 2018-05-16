@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
+import "./Elements.css"
 
 import Context from "./Components/Context/Context";
 import Header from "./Components/Header/Header";
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header />
+          {/* <Header /> */}
           <Route exact path="/" component={Context} />
         </div>
       </BrowserRouter>
